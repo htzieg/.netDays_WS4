@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ddfApi</name>
+    </assembly>
+    <members>
+        <member name="M:ddfApi.Controllers.CustomersController.GetAll">
+            <summary>
+            Fetches all customers
+            </summary>
+            <returns>A collection of customers</returns>
+        </member>
+        <member name="M:ddfApi.Controllers.RandomController.Next">
+             <summary>
+             gives you THE NUMBER and SENSE OF LIFE
+             We need to set "Generate XML Docs" in project settings or 
+             <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+             <DocumentationFile>bin\Debug\netcoreapp2.0\ddfApi.xml</DocumentationFile>
+            </PropertyGroup>
+             </summary>
+             <returns></returns>
+             <response code="200">Generation of a random number succeeded</response>
+             <response code="304">304</response>
+        </member>
+        <member name="M:ddfApi.Controllers.RandomController.Throw">
+            <summary>
+            Test method to show exception handling
+            </summary>
+        </member>
+    </members>
+</doc>
